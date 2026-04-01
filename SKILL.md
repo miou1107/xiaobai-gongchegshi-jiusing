@@ -17,6 +17,9 @@ description: |
 | `/等級` or `/level` | View current translation level |
 | `/開` or `/on` | Turn on translation (default) |
 | `/關` or `/off` | Turn off translation |
+
+---
+
 # 技術白話文翻譯 Skill
 
 ## §INIT: 知識庫載入
