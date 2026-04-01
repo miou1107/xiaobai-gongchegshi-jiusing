@@ -18,54 +18,27 @@
 
 ## 📥 安裝方式
 
-### OpenCode
+**複製以下指令，貼到終端機執行即可：**
+
 ```bash
-gh repo clone miou1107/tech-translator ~/.config/opencode/skills/skills/tech-translator
+curl -sL https://raw.githubusercontent.com/miou1107/tech-translator/main/install.sh | bash
 ```
 
-### Continue (VS Code / JetBrains)
-```bash
-gh repo clone miou1107/tech-translator ~/.continue/skills/tech-translator
-```
+腳本會自動檢測你安裝的 AI 工具並完成安裝！
 
-### Codex
-```bash
-gh repo clone miou1107/tech-translator ~/.codex/skills/tech-translator
-```
+---
 
-### Claude Code
-```bash
-gh repo clone miou1107/tech-translator ~/.claude/skills/tech-translator
-```
+### 常見問題
 
-### Cursor
-```bash
-gh repo clone miou1107/tech-translator ~/.cursor/skills/tech-translator
-```
+**Q: 終端機是什麼？**
+> Mac: 打开「终端机」App
+> Windows: 打开「命令提示字元」或「PowerShell」
 
-### Windsurf
-```bash
-gh repo clone miou1107/tech-translator ~/.windsurf/skills/tech-translator
-```
+**Q: 執行後顯示權限不足？**
+> 請先安裝 GitHub CLI：`brew install gh`（Mac）
 
-### 通用安裝（一次性）
-```bash
-# 建立所有工具的 skill 目錄
-mkdir -p ~/.config/opencode/skills/skills
-mkdir -p ~/.continue/skills
-mkdir -p ~/.codex/skills
-mkdir -p ~/.claude/skills
-mkdir -p ~/.cursor/skills
-mkdir -p ~/.windsurf/skills
-
-# Clone 到各目錄
-gh repo clone miou1107/tech-translator ~/.config/opencode/skills/skills/tech-translator
-gh repo clone miou1107/tech-translator ~/.continue/skills/tech-translator
-gh repo clone miou1107/tech-translator ~/.codex/skills/tech-translator
-gh repo clone miou1107/tech-translator ~/.claude/skills/tech-translator
-gh repo clone miou1107/tech-translator ~/.cursor/skills/tech-translator
-gh repo clone miou1107/tech-translator ~/.windsurf/skills/tech-translator
-```
+**Q: 安裝在哪個工具？**
+> 腳本會自動檢測你有安裝哪些 AI 工具（OpenCode、Codex、Claude Code、Cursor、Windsurf 等），然後自動安裝
 
 ---
 
