@@ -29,6 +29,12 @@ curl -sL https://raw.githubusercontent.com/miou1107/xiaobai-gongchegshi-jiusing/
 
 ---
 
+### ⚠️ 安裝後請重新啟動 AI 工具
+
+安裝完成後，**請關閉 AI 工具並重新打開**，這樣 skill 才會生效。
+
+---
+
 ### 常見問題
 
 **Q: 終端機是什麼？**
