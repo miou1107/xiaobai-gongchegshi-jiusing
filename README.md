@@ -18,12 +18,53 @@
 
 ## 📥 安裝方式
 
+### OpenCode
 ```bash
-# Clone 到 OpenCode skills 目錄
 gh repo clone miou1107/tech-translator ~/.config/opencode/skills/skills/tech-translator
+```
 
-# 或 Clone 到 agents skills 目錄
-gh repo clone miou1107/tech-translator ~/.agents/skills/tech-translator
+### Continue (VS Code / JetBrains)
+```bash
+gh repo clone miou1107/tech-translator ~/.continue/skills/tech-translator
+```
+
+### Codex
+```bash
+gh repo clone miou1107/tech-translator ~/.codex/skills/tech-translator
+```
+
+### Claude Code
+```bash
+gh repo clone miou1107/tech-translator ~/.claude/skills/tech-translator
+```
+
+### Cursor
+```bash
+gh repo clone miou1107/tech-translator ~/.cursor/skills/tech-translator
+```
+
+### Windsurf
+```bash
+gh repo clone miou1107/tech-translator ~/.windsurf/skills/tech-translator
+```
+
+### 通用安裝（一次性）
+```bash
+# 建立所有工具的 skill 目錄
+mkdir -p ~/.config/opencode/skills/skills
+mkdir -p ~/.continue/skills
+mkdir -p ~/.codex/skills
+mkdir -p ~/.claude/skills
+mkdir -p ~/.cursor/skills
+mkdir -p ~/.windsurf/skills
+
+# Clone 到各目錄
+gh repo clone miou1107/tech-translator ~/.config/opencode/skills/skills/tech-translator
+gh repo clone miou1107/tech-translator ~/.continue/skills/tech-translator
+gh repo clone miou1107/tech-translator ~/.codex/skills/tech-translator
+gh repo clone miou1107/tech-translator ~/.claude/skills/tech-translator
+gh repo clone miou1107/tech-translator ~/.cursor/skills/tech-translator
+gh repo clone miou1107/tech-translator ~/.windsurf/skills/tech-translator
 ```
 
 ---
