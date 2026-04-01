@@ -6,17 +6,38 @@ description: |
   Works with all AI coding tools.
 ---
 
-# Tech Translator - Plain Language Skill
+# 🧚‍♂️ 小白工程師救星
 
-## Commands
+## ⚠️ 使用方式（必讀）
+
+### 第一步：先啟動技能
+```
+/tech-translator
+```
+輸入這個指令就會啟動小白工程師救星！
+
+### 第二步：使用功能指令
+啟動後才能使用以下指令：
+
+| 指令 | 功能 |
+|------|------|
+| `/翻譯` | 對當前對話內容進行白話翻譯 |
+| `/評測` | 手動觸發技術能力測驗 |
+| `/等級` | 查看當前翻譯等級 |
+| `/開` | 開啟翻譯功能（預設） |
+| `/關` | 關閉翻譯（進入正港工程師模式） |
+
+---
+
+## Commands (English)
 
 | Command | Function |
 |---------|----------|
-| `/翻譯` or `/translate` | Translate current conversation to plain language |
-| `/評測` or `/quiz` | Take technical skill assessment |
-| `/等級` or `/level` | View current translation level |
-| `/開` or `/on` | Turn on translation (default) |
-| `/關` or `/off` | Turn off translation |
+| `/translate` | Translate to plain language |
+| `/quiz` | Take technical assessment |
+| `/level` | View current level |
+| `/on` | Turn on translation |
+| `/off` | Turn off translation |
 
 ---
 
