@@ -1,10 +1,22 @@
 ---
 name: tech-translator
 description: |
-  技術白話文翻譯 Skill。將 AI 開發時的專業術語轉化成生活化、易懂的表達。
-  當使用者需要理解技術內容、想要降低專業門檻、或需要跨團隊溝通時觸發。
-  適用於所有 AI 工具（Codex、Claude Code、Cursor 等）。
+  Translates technical jargon into plain, easy-to-understand language.
+  Triggered when user says "translate", "explain", "I don't understand", "make it simple".
+  Works with all AI coding tools.
 ---
+
+# Tech Translator - Plain Language Skill
+
+## Commands
+
+| Command | Function |
+|---------|----------|
+| `/翻譯` or `/translate` | Translate current conversation to plain language |
+| `/評測` or `/quiz` | Take technical skill assessment |
+| `/等級` or `/level` | View current translation level |
+| `/開` or `/on` | Turn on translation (default) |
+| `/關` or `/off` | Turn off translation |
 # 技術白話文翻譯 Skill
 
 ## §INIT: 知識庫載入
