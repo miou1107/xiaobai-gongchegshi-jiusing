@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # =====================================
-# 🧚‍♂️ 技術白話文翻譯 Skill - 自動安裝腳本
+# 🧚‍♂️ 小白工程師救星 - 自動安裝腳本
 # =====================================
-# 使用方式：把下面這行貼到終端機執行
-# curl -sL https://raw.githubusercontent.com/miou1107/tech-translator/main/install.sh | bash
+# 使用方式：在 AI 中輸入以下 prompt
+# 請幫我安裝「小白工程師救星」skill
+# curl -sL https://raw.githubusercontent.com/miou1107/xiaobai-gongchegshi-jiusing/main/install.sh | bash
 # =====================================
 
 set -e

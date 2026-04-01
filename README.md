@@ -1,4 +1,4 @@
-# 🧚‍♂️ 技術白話文翻譯 Skill
+# 🧚‍♂️ 小白工程師救星
 
 將 AI 開發時的專業術語轉化成生活化、易懂的表達。讓非工程師也能輕鬆理解技術內容。
 
@@ -18,10 +18,11 @@
 
 ## 📥 安裝方式
 
-**複製以下指令，貼到終端機執行即可：**
+**在 AI 工具中輸入以下 prompt，AI 會幫你自動安裝：**
 
-```bash
-curl -sL https://raw.githubusercontent.com/miou1107/tech-translator/main/install.sh | bash
+```
+請幫我安裝「小白工程師救星」skill：
+curl -sL https://raw.githubusercontent.com/miou1107/xiaobai-gongchegshi-jiusing/main/install.sh | bash
 ```
 
 腳本會自動檢測你安裝的 AI 工具並完成安裝！
@@ -31,8 +32,8 @@ curl -sL https://raw.githubusercontent.com/miou1107/tech-translator/main/install
 ### 常見問題
 
 **Q: 終端機是什麼？**
-> Mac: 打开「终端机」App
-> Windows: 打开「命令提示字元」或「PowerShell」
+> Mac: 打開「終端機」App  
+> Windows: 打開「命令提示字元」或「PowerShell」
 
 **Q: 執行後顯示權限不足？**
 > 請先安裝 GitHub CLI：`brew install gh`（Mac）
@@ -153,10 +154,11 @@ Q3: 當有人說『快取』時，你會想到什麼？
 ## 📁 檔案結構
 
 ```
-tech-translator/
+小白工程師救星/
 ├── SKILL.md          # Skill 本體
 ├── terms.json        # 術語庫（100+ 詞）
 ├── quiz.json         # 評測題庫（30 題）
+├── install.sh        # 自動安裝腳本
 └── README.md         # 本說明文件
 ```
 
@@ -181,8 +183,8 @@ tech-translator/
 
 ## 📞 聯繫
 
-- GitHub: https://github.com/miou1107/tech-translator
-- Issues: https://github.com/miou1107/tech-translator/issues
+- GitHub: https://github.com/miou1107/xiaobai-gongchegshi-jiusing
+- Issues: https://github.com/miou1107/xiaobai-gongchegshi-jiusing/issues
 
 ---
 
