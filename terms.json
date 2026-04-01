@@ -1,0 +1,812 @@
+{
+  "redis": {
+    "term": "Redis",
+    "category": "database",
+    "translations": {
+      "大白": "暫存區（像便利店的寄放櫃）",
+      "小白": "Redis（暫存區，用來放常用資料）",
+      "範例": "像便利店櫃檯上的暫存區，常用的飲料放這裡服務客人更快速"
+    }
+  },
+  "cache": {
+    "term": "Cache",
+    "category": "performance",
+    "translations": {
+      "大白": "暫存區",
+      "小白": "暫存區（Cache）",
+      "範例": "就像廚師案板上放著正在用的食材，不用每次都去冰箱拿"
+    }
+  },
+  "api": {
+    "term": "API",
+    "category": "interface",
+    "translations": {
+      "大白": "程式之間的『菜單』",
+      "小白": "API（應用程式介面，程式溝通的方式）",
+      "範例": "就像餐廳的菜單，你點菜不用跑去廚房告訴廚師"
+    }
+  },
+  "database": {
+    "term": "Database",
+    "category": "storage",
+    "translations": {
+      "大白": "資料儲存倉庫",
+      "小白": "資料庫（儲存結構化資料的系統）",
+      "範例": "就像公司的檔案室，所有重要文件都存放這裡"
+    }
+  },
+  "sql": {
+    "term": "SQL",
+    "category": "query",
+    "translations": {
+      "大白": "資料庫的『問話方式』",
+      "小白": "SQL（資料庫查詢語言）",
+      "範例": "就像你跟圖書館員說要借什麼書，只不過是跟電腦說"
+    }
+  },
+  "frontend": {
+    "term": "Frontend",
+    "category": "development",
+    "translations": {
+      "大白": "客人看得到的店面",
+      "小白": "前端（使用者看得到的介面）",
+      "範例": "就像餐廳的裝潢和服務人員，客人直接接觸的部分"
+    }
+  },
+  "backend": {
+    "term": "Backend",
+    "category": "development",
+    "translations": {
+      "大白": "廚房和倉庫",
+      "小白": "後端（背後處理資料的系統）",
+      "範例": "就像餐廳的廚房和食材倉庫，客人看不到但很重要的部分"
+    }
+  },
+  "server": {
+    "term": "Server",
+    "category": "infrastructure",
+    "translations": {
+      "大白": "服務生/櫃檯",
+      "小白": "伺服器（提供服務的電腦）",
+      "範例": "就像餐廳的服務生，你叫他，他就帮你办事"
+    }
+  },
+  "client": {
+    "term": "Client",
+    "category": "infrastructure",
+    "translations": {
+      "大白": "客人",
+      "小白": "客戶端（提出要求的電腦或程式）",
+      "範例": "就像去餐廳吃飯的客人，提出需求然後等服務"
+    }
+  },
+  "http": {
+    "term": "HTTP",
+    "category": "protocol",
+    "translations": {
+      "大白": "聊天的『規矩』",
+      "小白": "HTTP（網路傳輸規矩）",
+      "範例": "就像兩個人見面聊天的禮貌：先打招呼、再說正事、然後道別"
+    }
+  },
+  "json": {
+    "term": "JSON",
+    "category": "data-format",
+    "translations": {
+      "大白": "整理好的資料表格",
+      "小白": "JSON（一種資料格式）",
+      "範例": "就像便利店的商品標籤，整齊標著名稱、價格、數量"
+    }
+  },
+  "rest": {
+    "term": "REST",
+    "category": "architecture",
+    "translations": {
+      "大白": "標準化的『點餐』方式",
+      "小白": "REST（一種 API 设计方式）",
+      "範例": "就像餐廳的標準流程：看菜單→點餐→等上菜→吃飯"
+    }
+  },
+  "crud": {
+    "term": "CRUD",
+    "category": "operations",
+    "translations": {
+      "大白": "基本動作：新增、讀取、更新、刪除",
+      "小白": "CRUD（新增、讀取、更新、刪除）",
+      "範例": "就像便利商店的基本功：擺新商品、查庫存、調價格、清除過期品"
+    }
+  },
+  "git": {
+    "term": "Git",
+    "category": "version-control",
+    "translations": {
+      "大白": "時光機+備份系統",
+      "小白": "Git（版本控制系統）",
+      "範例": "就像遊戲的存檔功能，可以隨時回到之前的狀態"
+    }
+  },
+  "debug": {
+    "term": "Debug",
+    "category": "development",
+    "translations": {
+      "大白": "抓蟲子/除錯",
+      "小白": "Debug（除錯）",
+      "範例": "就像找出家裡哪裡漏水，逐一檢查管線"
+    }
+  },
+  "deploy": {
+    "term": "Deploy",
+    "category": "devops",
+    "translations": {
+      "大白": "开店/上线",
+      "小白": "Deploy（部署上线）",
+      "範例": "就像装修完店面，正式开门营业"
+    }
+  },
+  "authentication": {
+    "term": "Authentication",
+    "category": "security",
+    "translations": {
+      "大白": "確認你是誰",
+      "小白": "身份驗證（登入確認你是誰）",
+      "範例": "就像進圖書館要出示借書證，證明你是會員"
+    }
+  },
+  "authorization": {
+    "term": "Authorization",
+    "category": "security",
+    "translations": {
+      "大白": "確認你能做什麼",
+      "小白": "權限控制（確認你能做什麼）",
+      "範例": "就像會員分級：普通會員只能借5本，VIP能借20本"
+    }
+  },
+  "latency": {
+    "term": "Latency",
+    "category": "performance",
+    "translations": {
+      "大白": "反應速度",
+      "小白": "延遲（反應速度）",
+      "範例": "就像叫外賣送來的時間，越短越好"
+    }
+  },
+  "bandwidth": {
+    "term": "Bandwidth",
+    "category": "network",
+    "translations": {
+      "大白": "道路寬度",
+      "小白": "頻寬（能同時通過多少資料）",
+      "範例": "就像馬路，單線道只能一台車通過，八線道可以同時八台"
+    }
+  },
+  "docker": {
+    "term": "Docker",
+    "category": "devops",
+    "translations": {
+      "大白": "標準貨櫃",
+      "小白": "Docker（容器化工具）",
+      "範例": "就像統一規格的貨櫃，不管什麼東西放進去都能標準化运输"
+    }
+  },
+  "kubernetes": {
+    "term": "Kubernetes",
+    "category": "devops",
+    "translations": {
+      "大白": "貨櫃船隊管理員",
+      "小白": "Kubernetes（容器調度系統）",
+      "範例": "就像船長管理一堆貨櫃船，哪裡需要資源就調過去"
+    }
+  },
+  "cloud": {
+    "term": "Cloud",
+    "category": "infrastructure",
+    "translations": {
+      "大白": "網路上的服務",
+      "小白": "雲端（網路上的伺服器）",
+      "範例": "就像用別人的廚房煮飯，不需要自己買廚具"
+    }
+  },
+  "aws": {
+    "term": "AWS",
+    "category": "cloud-provider",
+    "translations": {
+      "大白": "雲端資源供應商甲",
+      "小白": "AWS（亞馬遜雲端服務）",
+      "範例": "就像租房平台，哪裡有房子出租一目了然"
+    }
+  },
+  "load-balancer": {
+    "term": "Load Balancer",
+    "category": "infrastructure",
+    "translations": {
+      "大白": "叫號機/分流櫃檯",
+      "小白": "負載平衡器（分配流量）",
+      "範例": "就像醫院掛號機，大家輪流分配，不會一堆人擠在同個窗口"
+    }
+  },
+  "middleware": {
+    "term": "Middleware",
+    "category": "software",
+    "translations": {
+      "大白": "中介員/轉接生",
+      "小白": "中介軟體（在中間處理事情的程式）",
+      "範例": "就像餐廳的服務生，客人點完菜傳到廚房，廚房做好再傳回來"
+    }
+  },
+  "proxy": {
+    "term": "Proxy",
+    "category": "network",
+    "translations": {
+      "大白": "代購/代理人",
+      "小白": "Proxy（代理伺服器）",
+      "範例": "就像請朋友幫你排隊買票，你不用親自去"
+    }
+  },
+  "encryption": {
+    "term": "Encryption",
+    "category": "security",
+    "translations": {
+      "大白": "上鎖",
+      "小白": "加密（把資料鎖起來）",
+      "範例": "就像把日記本鎖在抽屜裡，只有有鑰匙的人能看"
+    }
+  },
+  "token": {
+    "term": "Token",
+    "category": "security",
+    "translations": {
+      "大白": "出入證",
+      "小白": "Token（驗證身份的識別證）",
+      "範例": "就像停車場的代幣，投幣才能進出"
+    }
+  },
+  "session": {
+    "term": "Session",
+    "category": "state",
+    "translations": {
+      "大白": "這段時間的互動紀錄",
+      "小白": "Session（會話，期間的互動）",
+      "範例": "就像你逛超市的過程，從進門到結帳為一個 session"
+    }
+  },
+  "cookie": {
+    "term": "Cookie",
+    "category": "state",
+    "translations": {
+      "大白": "小紙條/紀念品",
+      "小白": "Cookie（瀏覽器存放的資料）",
+      "範例": "就像便利商店的會員集點卡，記錄你買過什麼"
+    }
+  },
+  "webhook": {
+    "term": "Webhook",
+    "category": "integration",
+    "translations": {
+      "大白": "自動提醒/對講機",
+      "小白": "Webhook（自動觸發通知）",
+      "範例": "就像門鈴，有人按你就知道，自動通知裡面的人"
+    }
+  },
+  "algorithm": {
+    "term": "Algorithm",
+    "category": "computer-science",
+    "translations": {
+      "大白": "食譜/做法說明書",
+      "小白": "演算法（解決問題的步驟）",
+      "範例": "就像做菜的食譜，照著步驟做就能完成一道菜"
+    }
+  },
+  "framework": {
+    "term": "Framework",
+    "category": "software",
+    "translations": {
+      "大白": "已經畫好的框架",
+      "小白": "框架（開發軟體的基礎結構）",
+      "範例": "就像已經幫你蓋好的骨架，你只要填肉就好"
+    }
+  },
+  "library": {
+    "term": "Library",
+    "category": "software",
+    "translations": {
+      "大白": "工具箱",
+      "小白": " Library（程式工具箱）",
+      "範例": "就像工具箱裡的螺絲起子、鎚子，需要什麼就拿出來用"
+    }
+  },
+  "sdk": {
+    "term": "SDK",
+    "category": "software",
+    "translations": {
+      "大白": "套件包",
+      "小白": "SDK（軟體開發套件）",
+      "範例": "就像組裝家具的完整工具包，裡面有說明書和所有零件"
+    }
+  },
+  "ide": {
+    "term": "IDE",
+    "category": "development-tool",
+    "translations": {
+      "大白": "寫程式的辦公室",
+      "小白": "IDE（整合開發環境）",
+      "範例": "就像作家寫作的書房，筆電、燈光、資料都在這裡"
+    }
+  },
+  "compiler": {
+    "term": "Compiler",
+    "category": "development-tool",
+    "translations": {
+      "大白": "翻譯官",
+      "小白": "編譯器（把程式碼翻成電腦能懂的語言）",
+      "範例": "就像翻譯員，把英文翻成中文讓對方聽懂"
+    }
+  },
+  "runtime": {
+    "term": "Runtime",
+    "category": "execution",
+    "translations": {
+      "大白": "執行時間",
+      "小白": "執行期（程式運行的時候）",
+      "範例": "就像上映中的電影，正在播放的階段"
+    }
+  },
+  "memory": {
+    "term": "Memory",
+    "category": "hardware",
+    "translations": {
+      "大白": "短期記憶力",
+      "小白": "記憶體（電腦的短期記憶）",
+      "範例": "就像桌上的便條紙，暫時記錄東西的地方"
+    }
+  },
+  "cpu": {
+    "term": "CPU",
+    "category": "hardware",
+    "translations": {
+      "大白": "大腦/處理器",
+      "小白": "CPU（中央處理器）",
+      "範例": "就像人的大腦，負責思考和計算"
+    }
+  },
+  "protocol": {
+    "term": "Protocol",
+    "category": "network",
+    "translations": {
+      "大白": "規矩/對話規則",
+      "小白": "通訊協定（設備之間的溝通規則）",
+      "範例": "就像見面要握手、交換名片，然後才開始談正事"
+    }
+  },
+  "query": {
+    "term": "Query",
+    "category": "database",
+    "translations": {
+      "大白": "問問題",
+      "小白": "查詢（資料庫提問）",
+      "範例": "就像圖書館員說『我想找關於烹飪的書』"
+    }
+  },
+  "schema": {
+    "term": "Schema",
+    "category": "database",
+    "translations": {
+      "大白": "設計圖/格局",
+      "小白": "結構（資料庫的設計圖）",
+      "範例": "就像房子的格局圖，幾房幾廳、門在哪裡"
+    }
+  },
+  "migration": {
+    "term": "Migration",
+    "category": "database",
+    "translations": {
+      "大白": "搬家",
+      "小白": "遷移（資料庫結構調整）",
+      "範例": "就像從透天搬到電梯大樓，要把家具和資料一起搬過去"
+    }
+  },
+  "container": {
+    "term": "Container",
+    "category": "devops",
+    "translations": {
+      "大白": "貨櫃箱",
+      "小白": "容器（打包程式的方式）",
+      "範例": "就像貨櫃箱把東西裝起來，不管在哪都能统一打开使用"
+    }
+  },
+  "cicd": {
+    "term": "CI/CD",
+    "category": "devops",
+    "translations": {
+      "大白": "自動化流水線",
+      "小白": "CI/CD（持續整合/持續交付）",
+      "範例": "就像工廠的自動化生產線，東西做不好會自動擋下"
+    }
+  },
+  "pipeline": {
+    "term": "Pipeline",
+    "category": "devops",
+    "translations": {
+      "大白": "流水線",
+      "小白": "Pipeline（處理的流程線）",
+      "範例": "就像高速公路收費站，一個關卡一個關卡檢查通過"
+    }
+  },
+  "test": {
+    "term": "Test",
+    "category": "quality",
+    "translations": {
+      "大白": "測試/把關",
+      "小白": "測試（檢查程式有沒有問題）",
+      "範例": "就像出廠前的質檢，把有問題的商品找出來"
+    }
+  },
+  "unit-test": {
+    "term": "Unit Test",
+    "category": "testing",
+    "translations": {
+      "大白": "單元考試",
+      "小白": "單元測試（測試每個小零件）",
+      "範例": "就像每個螺絲釘都要檢查有沒有鏽蝕"
+    }
+  },
+  "integration-test": {
+    "term": "Integration Test",
+    "category": "testing",
+    "translations": {
+      "大白": "總驗收",
+      "小白": "整合測試（測試整個系統運作）",
+      "範例": "就像把零件組裝成機器後，整台開機測試"
+    }
+  },
+  "mock": {
+    "term": "Mock",
+    "category": "testing",
+    "translations": {
+      "大白": "假道具",
+      "小白": "Mock（假資料/假零件）",
+      "範例": "就像拍戲用假的鈔票道具，不是真的但看起來一樣"
+    }
+  },
+  "log": {
+    "term": "Log",
+    "category": "monitoring",
+    "translations": {
+      "大白": "日誌/紀錄",
+      "小白": "日誌（紀錄發生的事情）",
+      "範例": "就像飛機的黑盒子，記錄所有飛行資料"
+    }
+  },
+  "error": {
+    "term": "Error",
+    "category": "debugging",
+    "translations": {
+      "大白": "錯誤/出問題",
+      "小白": "錯誤（程式出錯）",
+      "範例": "就像紅燈亮起告诉你有問題"
+    }
+  },
+  "exception": {
+    "term": "Exception",
+    "category": "debugging",
+    "translations": {
+      "大白": "例外/意外狀況",
+      "小白": "例外（預期外的狀況）",
+      "範例": "就像正常開車但突然爆胎，這是例外狀況"
+    }
+  },
+  "stack-trace": {
+    "term": "Stack Trace",
+    "category": "debugging",
+    "translations": {
+      "大白": "出錯線索",
+      "小白": "堆疊追蹤（錯誤的來龍去脈）",
+      "範例": "就像找出兇手的犯案時間線，從頭到尾串起來"
+    }
+  },
+  "async": {
+    "term": "Async",
+    "category": "programming",
+    "translations": {
+      "大白": "不一樣時機",
+      "小白": "非同步（不用等做完才能做下一件）",
+      "範例": "就像一邊吃飯一邊看電視，不用等吃完才能看"
+    }
+  },
+  "promise": {
+    "term": "Promise",
+    "category": "programming",
+    "translations": {
+      "大白": "承諾/口頭保證",
+      "小白": "Promise（承諾未來會有結果）",
+      "範例": "就像網購時說『貨品會在三天內寄出』，給你一個未來的期待"
+    }
+  },
+  "callback": {
+    "term": "Callback",
+    "category": "programming",
+    "translations": {
+      "大白": "回調/回報",
+      "小白": "回調（做完後通知你）",
+      "範例": "就像點外賣時說『做好打電話給你』，做好後通知你取餐"
+    }
+  },
+  "state": {
+    "term": "State",
+    "category": "programming",
+    "translations": {
+      "大白": "現在的狀態",
+      "小白": "狀態（東西現在是什麼情況）",
+      "範例": "就像現在是開燈還是關燈的狀態"
+    }
+  },
+  "component": {
+    "term": "Component",
+    "category": "software",
+    "translations": {
+      "大白": "零件/元件",
+      "小白": "元件（獨立的零件）",
+      "範例": "就像樂高積木，一塊一塊可以組合成各種東西"
+    }
+  },
+  "module": {
+    "term": "Module",
+    "category": "software",
+    "translations": {
+      "大白": "模組/包",
+      "小白": "模組（獨立的功能包）",
+      "範例": "就像遊戲包，一個包裡面有一組相關的功能"
+    }
+  },
+  "package": {
+    "term": "Package",
+    "category": "software",
+    "translations": {
+      "大白": "包裹/一套",
+      "小白": "套件（一包程式碼）",
+      "範例": "就像福袋，打開是一堆相關的東西"
+    }
+  },
+  "dependency": {
+    "term": "Dependency",
+    "category": "software",
+    "translations": {
+      "大白": "依賴/需要別人",
+      "小白": "相依性（需要靠別人才能運作）",
+      "範例": "就像汽车需要汽油，没有就動不起來"
+    }
+  },
+  "branch": {
+    "term": "Branch",
+    "category": "version-control",
+    "translations": {
+      "大白": "分支/分岔路",
+      "小白": "分支（版本分叉）",
+      "範例": "就像一條路走到某處分兩條，你可以選一條走"
+    }
+  },
+  "merge": {
+    "term": "Merge",
+    "category": "version-control",
+    "translations": {
+      "大白": "合併/合流",
+      "小白": "合併（把分支合在一起）",
+      "範例": "就像兩條河匯成一条河"
+    }
+  },
+  "pull-request": {
+    "term": "Pull Request",
+    "category": "version-control",
+    "translations": {
+      "大白": "提交審核",
+      "小白": "Pull Request（請求合併）",
+      "範例": "就像把改好的作業交給老師，請老師審核"
+    }
+  },
+  "code-review": {
+    "term": "Code Review",
+    "category": "quality",
+    "translations": {
+      "大白": "互相比較",
+      "小白": "Code Review（程式碼審查）",
+      "範例": "就像同學互相檢查作業，看有沒有寫錯"
+    }
+  },
+  "refactor": {
+    "term": "Refactor",
+    "category": "development",
+    "translations": {
+      "大白": "重新整理/重寫",
+      "小白": "重構（改寫程式碼讓它更好）",
+      "範例": "就像把房間東西重新擺放，空間利用更有效率"
+    }
+  },
+  "technical-debt": {
+    "term": "Technical Debt",
+    "category": "development",
+    "translations": {
+      "大白": "技術債務/欠債",
+      "小白": "技術負債（當初偷懶欠下的代價）",
+      "範例": "就像信用卡卡債，先享受之後要還利息"
+    }
+  },
+  "index": {
+    "term": "Index",
+    "category": "database",
+    "translations": {
+      "大白": "目錄/索引",
+      "小白": "索引（加快查詢的目錄）",
+      "範例": "就像書的目錄，讓你直接翻到想看的那一頁"
+    }
+  },
+  "authentication": {
+    "term": "Authentication",
+    "category": "security",
+    "translations": {
+      "大白": "驗證身份",
+      "小白": "身份驗證（確認是誰）",
+      "範例": "就像驗證證件，確認是本人"
+    }
+  },
+  "oauth": {
+    "term": "OAuth",
+    "category": "security",
+    "translations": {
+      "大白": "第三方登入",
+      "小白": "OAuth（一種登入方式）",
+      "範例": "就像用 LINE 帳號登入其他網站，不用再註冊新帳號"
+    }
+  },
+  "jwt": {
+    "term": "JWT",
+    "category": "security",
+    "translations": {
+      "大白": "身份通行證",
+      "小白": "JWT（一種身份驗證格式）",
+      "範例": "就像遊樂園的通行證，上面寫著你是誰、能玩什麼"
+    }
+  },
+  "ssl": {
+    "term": "SSL",
+    "category": "security",
+    "translations": {
+      "大白": "安全通道",
+      "小白": "SSL（安全連線）",
+      "範例": "就像 HTTPS 的 S，讓傳輸的資料變成暗號別人看不懂"
+    }
+  },
+  "firewall": {
+    "term": "Firewall",
+    "category": "security",
+    "translations": {
+      "大白": "防火牆/保全",
+      "小白": "防火牆（防止壞人進入）",
+      "範例": "就像大樓的保全和門禁，擋掉陌生人"
+    }
+  },
+  "cdn": {
+    "term": "CDN",
+    "category": "network",
+    "translations": {
+      "大白": "分店/據點",
+      "小白": "CDN（內容傳遞網路）",
+      "範例": "就像便利商店分店，你在最近的那家買最快"
+    }
+  },
+  "microservice": {
+    "term": "Microservice",
+    "category": "architecture",
+    "translations": {
+      "大白": "小而美的服務",
+      "小白": "微服務（一個個小功能分開）",
+      "範例": "就像餐飲區分成拉麵區、壽司區、甜點區，每區只做一件事"
+    }
+  },
+  "monolith": {
+    "term": "Monolith",
+    "category": "architecture",
+    "translations": {
+      "大白": "一體式/大雜燴",
+      "小白": "單體式（全部包在一起）",
+      "範例": "就像自助餐，所有菜都放在同一個台上"
+    }
+  },
+  "repository": {
+    "term": "Repository",
+    "category": "version-control",
+    "translations": {
+      "大白": "倉庫/存放處",
+      "小白": "Repository（程式碼存放處）",
+      "範例": "就像圖書館的藏書室，所有書都放在這裡"
+    }
+  },
+  "commit": {
+    "term": "Commit",
+    "category": "version-control",
+    "translations": {
+      "大白": "存檔/確認",
+      "小白": "Commit（存檔這次的改動）",
+      "範例": "就像遊戲存檔，這次的進度確定記錄下來"
+    }
+  },
+  "push": {
+    "term": "Push",
+    "category": "version-control",
+    "translations": {
+      "大白": "上傳/推送",
+      "小白": "Push（把改動上傳）",
+      "範例": "就像把備份的硬碟寄到雲端儲存"
+    }
+  },
+  "pull": {
+    "term": "Pull",
+    "category": "version-control",
+    "translations": {
+      "大白": "下載/拉取",
+      "小白": "Pull（把最新版本抓下來）",
+      "範例": "就像從雲端把最新的檔案下載回來"
+    }
+  },
+  "clone": {
+    "term": "Clone",
+    "category": "version-control",
+    "translations": {
+      "大白": "複製/clone",
+      "小白": "Clone（複製一份到本地）",
+      "範例": "就像把雲端的資料夾複製一份到自己的電腦"
+    }
+  },
+  "fork": {
+    "term": "Fork",
+    "category": "version-control",
+    "translations": {
+      "大白": "複製並修改",
+      "小白": "Fork（複製一份來自己改）",
+      "範例": "就像把別人的食譜抄下來，自己改成喜歡的口味"
+    }
+  },
+  "issue": {
+    "term": "Issue",
+    "category": "project-management",
+    "translations": {
+      "大白": "問題/待辦事項",
+      "小白": "Issue（問題或任務）",
+      "範例": "就像待辦清單上的項目"
+    }
+  },
+  "agile": {
+    "term": "Agile",
+    "category": "methodology",
+    "translations": {
+      "大白": "敏捷開發",
+      "小白": "敏捷（一種開發方式）",
+      "範例": "就像衝刺短跑，一次一小段，快速迭代"
+    }
+  },
+  "sprint": {
+    "term": "Sprint",
+    "category": "methodology",
+    "translations": {
+      "大白": "衝刺期",
+      "小白": "Sprint（開發週期）",
+      "範例": "就像運動會的短跑，一段時間內全力衝刺"
+    }
+  },
+  "scrum": {
+    "term": "Scrum",
+    "category": "methodology",
+    "translations": {
+      "大白": "每日站會",
+      "小白": "Scrum（一種團隊協作方式）",
+      "範例": "就像每天早上大家站起來說一下昨天做了什麼、今天要做什麼"
+    }
+  },
+  "repository": {
+    "term": "Repository",
+    "category": "version-control",
+    "translations": {
+      "大白": "倉庫",
+      "小白": "Repository（程式碼庫）",
+      "範例": "就像圖書館，所有藏書都在這裡"
+    }
+  }
+}
