@@ -51,7 +51,13 @@ curl -sL https://raw.githubusercontent.com/miou1107/xiaobai-gongchegshi-jiusing/
 
 ## 🎮 使用方式
 
-### 指令列表
+### 第一步：啟動技能
+```
+/tech-translator
+```
+輸入這個指令就會啟動小白工程師救星！
+
+### 第二步：使用功能
 
 | 指令 | 功能 |
 |------|------|
